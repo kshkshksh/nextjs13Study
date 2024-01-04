@@ -23,6 +23,7 @@ const CreatePost = () => {
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
+      
       <button type="submit">Create Post</button>
     </form>
   );
